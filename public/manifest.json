@@ -1,0 +1,9 @@
+{
+  "short_name": "Mardown Previewer",
+  "name": "Mardown Previewer Application",
+ 
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

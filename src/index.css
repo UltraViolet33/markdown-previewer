@@ -1,0 +1,33 @@
+body{
+    background:rgb(88, 88, 180);
+}
+#title{
+    text-align:center;
+}
+
+#editor{
+    width:100%;
+    height:300px;
+    border:2px solid blue;
+    background-color:rgb(143, 143, 218);
+    padding:20px;
+    border-radius:10px;
+    resize:none;  
+}
+
+#preview{
+    width:100%;
+    border:2px solid blue;
+    background-color:rgb(143, 143, 218);
+    padding:20px;
+    border-radius:10px;   
+}
+
+.bloc{
+    margin:auto;
+    width:70%;
+}
+
+img{
+    width:50%;
+}
