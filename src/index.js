@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import marked from "marked";
 
+
+
 import "./index.css";
+import Footer from "./footer";
 
 class App extends React.Component {
   state = {
@@ -61,4 +64,4 @@ function anotherExample(firstLine, lastLine) {
 And this is **bold text** !
 `;
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<div><App /><Footer/></div>, rootElement);

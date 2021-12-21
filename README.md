@@ -1,6 +1,5 @@
-# Markdown Prewiever
+# Markdown Previewer
 
-## This is a Markdown prewiever application
+## This is a Markdown previewer application coded with React JS.
 
-I made as a FreeCodeCamp project using React JS.
-
+I worked on this project as a FreeCodeCamp project from the *Front End Development Libraries* course.
