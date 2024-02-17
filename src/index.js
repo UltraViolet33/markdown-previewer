@@ -1,11 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import marked from "marked";
-
-
-
 import "./index.css";
-import Footer from "./footer";
 
 class App extends React.Component {
   state = {
@@ -48,7 +44,6 @@ class App extends React.Component {
 
 const mardown = `# This is a h1 title 
 ## This is a h2 title
-This is my  [portofolio](https://ulysse28.github.io/Portofolio-Ulysse-Valdenaire/),
 inline code, \`<div></div>\`
 \`\`\`
 // this is multi-line code:
@@ -64,4 +59,4 @@ function anotherExample(firstLine, lastLine) {
 And this is **bold text** !
 `;
 const rootElement = document.getElementById("root");
-ReactDOM.render(<div><App /><Footer/></div>, rootElement);
+ReactDOM.render(<div><App /></div>, rootElement);
